@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+}
+
+#carouselExampleInterval {
+  margin: 0 auto;
+  position: relative;
+}
+
+nav {
+  width: 100%; 
+  margin: 0 auto;
+  transition: 1s;
+}
+
+
+.navbar-home {
+  z-index: 99;   
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+
+a {
+  color: black;
+}
+
+
+a:hover {
+  color: white;
+}
+
+.product-content {
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+}
+
+
+.filter-buttons {
+  text-align: center;
+}
+
+.button {
+  margin-left: 10px;
+  margin-top: 20px;
+    
+}
+
+.form {
+  padding: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.form-success {
+  padding: 25px;
+}
+
+h2 {
+  font-size: 1.5rem;;
+  padding: 10px;
+}
+
+.button-filter {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-container .box {
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.sparkle {
+  background-image: url(https://www.sccpre.cat/mypng/full/65-654011_sparkle-clipart-overlay.png);
+}
+
+.product-content img {
+  width: 500px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.main-content {
+  height: 84vh;
+}
+
+.fa {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  body {
+      background-color: black;
+  }
+
+  p, h2, label {
+      color: white;
+  }
+
+  a {
+      color: black;
+  }
+  
+
+  .flex-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .flex-container .box {
+      width: 100%;
+      line-height: 1.5;
+      font-size: 20px;
+      margin: 0px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+  }
+
+  .flex-container .box p {
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .flex-container .box img {
+      vertical-align: baseline;
+  }
+
+  .navbar-home {
+      position: relative;
+
+  }
+
+  .btn-responsive {
+      background: white;
+  }
+  
+  .home-video {
+      width: 350px;
+      height: 200px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      border: 0;
+  }
+
+  .product-content img {
+      width: 300px;
+  }
+
+  .main-content {
+      height: 84vh;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+      background-color: white;
+  }
+
+  .home-video {
+      width: 560px;
+      height: 315px;
+  }
+  
+}

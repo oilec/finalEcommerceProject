@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "name": "BLOND VINYL",
+        "description":"BLOND 2XLP BLACK FRIDAY EXCLUSIVE BLACK VINYL",
+        "price": "$80",
+        "image": "https://static1.squarespace.com/static/57aa9c64e58c62f754f3745b/t/583c5de220099e25d0af10f5/1480351214888/",
+        "category": "vinyl",
+        "priceCategory": "mt50"
+       
+    },
+    {
+        "id": 2,
+        "name": "ENDLESS VINYL",
+        "description":"ENDLESS VINYL, RELEASED 2018 ALONGSIDE BLOND",
+        "price": "$70",
+        "image": "http://exclaim.ca/images/frank_12.jpg",
+        "category": "vinyl",
+        "priceCategory": "mt50"
+    },
+    {
+        "id": 3,
+        "name": "CHANNEL ORANGE VINYL",
+        "description":"CHANNEL ORANGE VINYL, RELEASED 2012, DEF JAM RECORDS",
+        "price": "$70",
+        "image": "https://d3c1jucybpy4ua.cloudfront.net/data/47922/main_article/s.png?1471590885",
+        "category": "vinyl",
+        "priceCategory": "mt50"
+    },
+    {
+        "id": 4,
+        "name": "NOSTALGIA ULTRA VINYL",
+        "description":"NOSTALGIA ULTRA VINYL, REALEASED 2011, MIXTAPE BY FRANK OCEAN",
+        "price": "$60",
+        "image": "https://d2h1pu99sxkfvn.cloudfront.net/b0/4515751/455909403_XaB8Hw3Ino/P6.jpg",
+        "category": "vinyl",
+        "priceCategory": "mt50"
+    },
+    {
+        "id": 5,
+        "name": "BOYS DON'T CRY MAGAZINE REISSUE",
+        "description":"LIMITED EDITION RELEASE “BOYS DON’T CRY”, A MAGAZINE BY FRANK OCEAN 2016",
+        "price": "$45",
+        "image": "https://cdn.shopify.com/s/files/1/0847/8186/products/IMG_0032_3eb6de46-449b-442c-bc32-4c15daa49354_1200x.jpg?v=1550259024",
+        "category": "print",
+        "priceCategory": "lt50"
+    },
+    {
+        "id": 6,
+        "name": "BLONDED RADIO DOUBLE SIDED POSTER",
+        "description":"24in x 36in. PRINTED IN THE USA",
+        "price": "$30",
+        "image": "https://cdn.shopify.com/s/files/1/0847/8186/products/fo-poster-0_1200x.jpg?v=1551054026",
+        "category": "print",
+        "priceCategory": "lt50"
+    },
+    {
+        "id": 7,
+        "name": "BLOND CREWNECK",
+        "description":"BLOND EMBRIODED CREWNECK, WHITE",
+        "price": "$35",
+        "image": "https://i.etsystatic.com/18766985/r/il/8a4d35/1676048326/il_1588xN.1676048326_o90i.jpg",
+        "category": "clothes",
+        "priceCategory": "lt50"
+    },
+    {
+        "id": 8,
+        "name": "CHANNEL ORANGE CREWNECK",
+        "description":"CHANNEL ORANGE EMBRIODED CREWNECK, ORANGE",
+        "price": "$35",
+        "image": "https://i.etsystatic.com/18766985/r/il/9ff98d/1784588725/il_1588xN.1784588725_60qv.jpg",
+        "category": "clothes",
+        "priceCategory": "lt50"
+    },
+    {
+        "id": 9,
+        "name": "NOSTALGIA ULTRA CREWNECK",
+        "description":"NOSTALGIA ULTRA EMBRIODED CREWNECK, GREEN",
+        "price": "$35",
+        "image": "https://i.etsystatic.com/18766985/r/il/06d73e/1737133500/il_1588xN.1737133500_9rch.jpg",
+        "category": "clothes",
+        "priceCategory": "lt50"
+    },
+    {
+        "id": 10,
+        "name": "FRANK OCEAN T-SHIRT",
+        "description":"FRANK OCEAN INSPIRED T-SHIRT, COLLAGE PICTURES, BLUE",
+        "price": "$22",
+        "image": "https://i.etsystatic.com/19948496/r/il/9507a4/1933455800/il_1588xN.1933455800_tbms.jpg",
+        "category": "clothes",
+        "priceCategory": "lt50"
+    },
+    {
+        "id": 11,
+        "name": "FRANK OCEAN T-SHIRT",
+        "description":"FRANK OCEAN INSPIRED T-SHIRT, COLLAGE PICTURES, ORANGE",
+        "price": "$22",
+        "image": "https://i.etsystatic.com/19948496/r/il/061d7e/1980992777/il_1588xN.1980992777_3686.jpg",
+        "category": "clothes",
+        "priceCategory": "lt50"
+    },
+    {
+        "id": 12,
+        "name": "FRANK OCEAN T-SHIRT",
+        "description":"FRANK OCEAN INSPIRED T-SHIRT, COLLAGE PICTURE",
+        "price": "$22",
+        "image": "https://i.etsystatic.com/19948496/r/il/4302d7/1980993219/il_1588xN.1980993219_496w.jpg",
+        "category": "clothes",
+        "priceCategory": "lt50"
+    }
+]
