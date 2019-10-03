@@ -5,7 +5,7 @@ class Nav extends React.Component {
   render() {
     return (
         <nav className="navbar navbar-home navbar-expand-lg navbar-dark">
-            <h1 className="navbar-brand nav-">Frank Ocean</h1>
+            <img class="navbar-brand nav-logo" src="http://i.imgur.com/O7aCqaE.png" width="100"/>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                  <span className="navbar-toggler-icon"></span>
              </button>

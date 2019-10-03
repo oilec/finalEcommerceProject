@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap');
+
+
 .App {
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  color: white;
   text-align: center;
 }
 
@@ -7,31 +16,24 @@
   position: relative;
 }
 
-nav {
-  width: 100%; 
-  margin: 0 auto;
-  transition: 1s;
-}
-
-
-.navbar-home {
-  z-index: 99;   
-}
-
-nav {
-  background-color: black;
+.carousel-content {
+  position: absolute;
+  top: 0;
+  margin-top: 190px;
+  left: 14%;
+  z-index: 20;
   color: white;
+  font-size: 7em;
+  text-shadow: 2px 2px #ff0000;
+  font-style: oblique;
+  font-family: "Zeyada";
 }
-
 
 a {
+  text-align: center;
   color: black;
 }
 
-
-a:hover {
-  color: white;
-}
 
 .product-content {
   margin-top: 50px;
@@ -87,6 +89,7 @@ h2 {
 
 .sparkle {
   background-image: url(https://www.sccpre.cat/mypng/full/65-654011_sparkle-clipart-overlay.png);
+
 }
 
 .product-content img {
@@ -94,11 +97,11 @@ h2 {
 }
 
 .footer {
-  position: absolute;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
+  height: 10vh;
 }
 
 .main-content {
@@ -132,6 +135,7 @@ h2 {
   background: #125688;
   color: white;
 }
+
 
 @media (max-width: 900px) {
   body {
@@ -196,6 +200,11 @@ h2 {
   .main-content {
       height: 84vh;
   }
+
+  .slider-text {
+    display: none;
+  }
+
 }
 
 @media (min-width: 900px) {
@@ -206,6 +215,13 @@ h2 {
   .home-video {
       width: 560px;
       height: 315px;
+  }
+  
+}
+
+@media (max-width: 1088px) {
+  .slider-text {
+    display: none;
   }
   
 }

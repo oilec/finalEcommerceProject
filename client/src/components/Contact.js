@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 class Contact extends React.Component {
     initialErrors = { // to be able to reset errors
         name: '',
@@ -34,7 +33,6 @@ class Contact extends React.Component {
     }
 
     validateEmail = (email) => {
-
          //pattern that validates email inputted
         const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());

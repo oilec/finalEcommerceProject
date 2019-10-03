@@ -3,12 +3,14 @@
 // Loading environment variables
 require('dotenv').config()
 
-const express = require('express')
-const helmet = require('helmet')
+const express = require('express');
+const helmet = require('helmet');
 
 // Import api routes
 const products = require('./route/products');
 const contacts = require('./route/contacts');
+
+
 // Sets up the Express App
 // =============================================================
 const app = express()
@@ -24,10 +26,10 @@ app.use(products);
 app.use(contacts);
 
 // Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('client/build'));
-  app.get('*', (req,res) => {
-    res.sendFile('./client/build/index.html');
+if (process.env.NODE_ENV === 'production') { //serves static client files in production
+  app.use(express.static('client/build')); 
+  app.get('*', (req,res) => { //universal path 
+    res.sendFile('./client/build/index.html'); //sends back react site
    });
 }
 

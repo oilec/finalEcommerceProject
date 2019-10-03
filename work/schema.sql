@@ -39,7 +39,7 @@ PRIMARY KEY(productID));
 
 INSERT INTO Products(productName, productImage, productDescription, productType, productQuantity)
 VALUES
-('Blond Vinyl', 'https://static1.squarespace.com/static/57aa9c64e58c62f754f3745b/t/583c5de220099e25d0af10f5/1480351214888/', 'BLOND 2XLP BLACK FRIDAY EXCLUSIVE BLACK VINYL', 'Vinyl', 55),
+('Blond Vinyl', 'https://images.complex.com/complex/image/upload/w_680/mzuawwwzgmj30fwvvliq.jpg', 'BLOND 2XLP BLACK FRIDAY EXCLUSIVE BLACK VINYL', 'Vinyl', 55),
 ('Endless Vinyl', 'http://exclaim.ca/images/frank_12.jpg', 'ENDLESS VINYL, RELEASED 2018 ALONGSIDE BLOND', 'Vinyl', 33),
 ('Channel Orange Vinyl', 'https://d3c1jucybpy4ua.cloudfront.net/data/47922/main_article/s.png?1471590885', 'CHANNEL ORANGE VINYL, RELEASED 2012, DEF JAM RECORDS', 'Vinyl', 41),
 ('Nostalgia Ultra Vinyl', 'https://d2h1pu99sxkfvn.cloudfront.net/b0/4515751/455909403_XaB8Hw3Ino/P6.jpg', 'NOSTALGIA ULTRA VINYL, REALEASED 2011, MIXTAPE BY FRANK OCEAN"', 'Vinyl', 52),
@@ -57,21 +57,21 @@ VALUES
 CREATE TABLE Price
 (priceID INT NOT NULL AUTO_INCREMENT, 
 productPrice INT NOT NULL,
+priceCategory VARCHAR(16),
 productID INT NOT NULL,
 PRIMARY KEY(priceID));
 
-INSERT INTO Price(productPrice, productID)
+INSERT INTO Price(productPrice, priceCategory, productID)
 VALUES 
-(80, 1),
-(70, 2),
-(70, 3),
-(60, 4),
-(45, 5),
-(30, 6),
-(35,7),
-(35, 8),
-(35, 9),
-(22, 10),
-(22, 11),
-(22, 12);
-
+(80, 'mt50', 1),
+(70, 'mt50', 2),
+(70, 'mt50', 3),
+(60, 'mt50', 4),
+(45, 'lt50', 5),
+(30, 'lt50', 6),
+(35, 'lt50', 7),
+(35, 'lt50', 8),
+(35, 'lt50', 9),
+(22, 'lt50', 10),
+(22, 'lt50', 11),
+(22, 'lt50', 12);

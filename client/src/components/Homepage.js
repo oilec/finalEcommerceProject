@@ -7,10 +7,13 @@ const Homepage = () => {
             <header id="carouselExampleInterval" className="carousel slide " data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-interval="20000">
-                        <img src="https://wallpapercave.com/wp/wp2069120.jpg" className="d-block w-100" alt="Frank Ocean" />
+                        <img src="http://wallsdesk.com/wp-content/uploads/2016/08/Frank-Ocean-Wallpapers.jpg" className="d-block w-100" alt="Frank Ocean" />
+                        <div class="carousel-content d-flex h-100 align-items-center justify-content-center">
+                         <h1 class="slider-text">Frank Ocean</h1>
+                        </div> 
                     </div>
                     <div className="carousel-item" data-interval="2000">
-                        <img src="http://wallsdesk.com/wp-content/uploads/2016/08/Frank-Ocean-Wallpapers.jpg" className="d-block w-100" alt="Frank Ocean" />
+                        <img src="https://wallpapercave.com/wp/wp2069120.jpg" className="d-block w-100" alt="Frank Ocean" />
                     </div>
                     <div className="carousel-item">
                         <img src="http://wallsdesk.com/wp-content/uploads/2016/08/Frank-Ocean-Widescreen.jpg" className="d-block w-100" alt="Frank Ocean" />
@@ -27,7 +30,7 @@ const Homepage = () => {
             </header>
             <div className="flex-container">
                 <div className="box">
-                    <img src="http://gayletter.com/wp-content/uploads/2019/04/FRANK_OCEAN_COLLIER_SCHORR_GAYLETTER_Shot_03_034_02-600x867.jpg" alt="FRANK OCEAN FOR GAYLETTER" width="400" />
+                    <img src="http://gayletter.com/wp-content/uploads/2019/04/FRANK_OCEAN_COLLIER_SCHORR_GAYLETTER_Shot_03_034_02-600x867.jpg" className="homepage-images" alt="FRANK OCEAN FOR GAYLETTER" width="400" />
                     <p>"Frank Ocean has been one of the more fascinating artists of the 2010s. A singer and songwriter whose output has defied rigid classNameification as R&amp;B, he has nonetheless pushed that genre forward with seemingly offhanded yet imaginatively detailed narratives in which he has alternated between yearning romantic and easygoing braggart."</p>    
                 </div>
                 <div className="box">
