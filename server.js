@@ -14,7 +14,7 @@ const contacts = require('./route/contacts');
 // Sets up the Express App
 // =============================================================
 const app = express()
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 4000;
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));

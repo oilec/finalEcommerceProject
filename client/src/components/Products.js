@@ -8,8 +8,8 @@ class Products extends React.Component {
 
   componentDidMount = () => { //runs when component is loaded
     fetch('/api/products') //fetches products from API (code that connects to DB)
-      .then((res) => res.json()) // convert resp to json
-      .then((data) => { 
+      .then(res => res.json())
+      .then(data => {
         this.setState({ //updates state with products from API
           products: data
         });
